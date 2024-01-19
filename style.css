@@ -1,0 +1,35 @@
+
+.container {
+  width: 300px;
+  margin: 100px auto;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+#password-input {
+  width: 200px;
+  height: 30px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  background-color: lightblue;
+}
+
+input[type="submit"] {
+  width: 100px;
+  height: 30px;
+  border-radius: 50px;
+  background-color: lightpink;
+}
+body{
+  background-image: url(https://kartin.papik.pro/uploads/posts/2023-07/thumbs/1689063821_kartin-papik-pro-p-kartinki-s-padayushchim-snegom-na-telefon-23.jpg);
+  background-size: cover;
+}
+footer p{
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: blue;
+  font-size: 15px;
+}
