@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <!--index.html-->
+<head>
+  <title>Перевірка</title>
+  <link rel="stylesheet"href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="https://viroby.perevirka.com.ua">
+</head>
+<body>
+
+<div class="container">
+  <h1>Введіть пароль</h1>
+  <form id="login-form">
+    <input type="password" id="password-input" placeholder="Пароль">
+    <input type="submit" value="Увійти">
+  </form>
+</div>
+
+<script>
+    
+document.getElementById("login-form").addEventListener("submit", function(event) {
+  event.preventDefault(); // Зупинити перезавантаження сторінки
+  
+  var password = document.getElementById("password-input").value;
+  
+  // Перевіряємо пароль. Встановіть власний пароль тут:
+  if (password === "vidra228") {
+    window.location.href = "site"; // Перейти на головну сторінку
+  } else {
+    alert("Неправильний пароль. Спробуйте ще раз.");
+  }
+});
+</script>
+<footer>
+  <p>©vidra228<br>2023-2024</p>
+</footer>
+</body>
+</html>
